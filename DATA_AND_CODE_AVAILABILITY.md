@@ -1,19 +1,19 @@
 # Data and Code Availability
 
-This file holds the text to be placed in the article once the repository is
-published and a DOI has been issued. Two placeholders must be replaced:
+This file records the availability statement that accompanies the article, and
+the identifiers of the archived release.
 
-  <GITHUB_URL>   the repository address, for example
-                 https://github.com/<account>/zagros-makran-benchmark
-  <ZENODO_DOI>   the DOI minted by Zenodo for the archived release,
-                 for example 10.5281/zenodo.0000000
+  Repository    https://github.com/mkhalili1355/zagros-makran-benchmark
+  Concept DOI   https://doi.org/10.5281/zenodo.21708567
+  Release DOI   https://doi.org/10.5281/zenodo.21708568  (v1.0.0)
+  License       MIT
 
-Both paragraphs below state that the catalog export is available in the
-repository. That statement is accurate only if data/Final_.csv is committed. If
-the catalog is not committed, the corresponding clause must be replaced by:
+The concept DOI is the identifier cited in the article, because it always
+resolves to the most recent archived release. The release DOI is fixed to the
+exact files deposited for version 1.0.0.
 
-  The catalog is available from the ISC Bulletin using the search parameters
-  given in Section 2.
+The catalog export used as input, data/Final_.csv, is committed to the
+repository, so the statements below hold as written.
 
 ---
 
@@ -26,15 +26,16 @@ International Seismological Centre (ISC) Bulletin
 (https://doi.org/10.31905/D808B830) for the region 25-29 N, 54-58 E over the
 period 1998-2023. The catalog export used as input, the complete analysis
 pipeline, and the configuration files required to reproduce every reported
-quantity, table and figure are openly available at <GITHUB_URL> and archived at
-https://doi.org/<ZENODO_DOI>. The repository includes the six sequential
-scripts that construct the catalog, estimate completeness and the b-value,
-train the four architectures under the common parameter budget, compute the
-baselines and the resampling inference, produce the attribution profiles, and
-collect all reported numbers into a single file. Random seeds are fixed and
-recorded, and the software versions used to produce the reported results are
-pinned in requirements.txt. The supplementary tables referenced in the text are
-provided as comma-separated files in the same repository.
+quantity, table and figure are openly available at
+https://github.com/mkhalili1355/zagros-makran-benchmark and archived at
+https://doi.org/10.5281/zenodo.21708567. The repository includes the six
+sequential scripts that construct the catalog, estimate completeness and the
+b-value, train the four architectures under the common parameter budget,
+compute the baselines and the resampling inference, produce the attribution
+profiles, and collect all reported numbers into a single file. Random seeds are
+fixed and recorded, and the software versions used to produce the reported
+results are pinned in requirements.txt. The supplementary tables referenced in
+the text are provided as comma-separated files in the same repository.
 
 ---
 
@@ -45,7 +46,8 @@ Data and Code Availability
 The catalog was obtained from the ISC Bulletin
 (https://doi.org/10.31905/D808B830). The catalog export and the full analysis
 pipeline, with fixed seeds and pinned software versions, are available at
-<GITHUB_URL> and archived at https://doi.org/<ZENODO_DOI>.
+https://github.com/mkhalili1355/zagros-makran-benchmark and archived at
+https://doi.org/10.5281/zenodo.21708567.
 
 ---
 

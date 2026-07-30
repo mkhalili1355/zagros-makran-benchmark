@@ -1,0 +1,11 @@
+# Pinned to the environment in which the reported results were produced.
+# Python 3.9.25 (Windows, conda env 'seismo')
+numpy==1.26.4
+pandas==2.3.1
+scipy==1.13.1
+scikit-learn==1.6.1
+matplotlib==3.9.4
+tensorflow==2.20.0
+# Keras 3 ships with TensorFlow >= 2.16 and is imported as `import keras`.
+# Optional: geospatial plotting
+# geopandas==0.14.4

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "Cite this software together with the accompanying article."
+title: "Deep sequence models for next-event magnitude prediction in the Zagros-Makran transition zone: benchmark pipeline"
+abstract: >-
+  Pipeline for a controlled benchmark of four deep sequence architectures
+  (LSTM, GRU, TCN, Transformer) against statistical and catalog-derived
+  baselines for next-event magnitude prediction, including catalog
+  construction, completeness and b-value estimation, parameter-matched
+  training, ETAS fitting, moving-block bootstrap and circular-shift inference,
+  and Integrated Gradients attribution.
+type: software
+authors:
+  - family-names: Khalili
+    given-names: Marzieh
+    email: marzieh-khalili@shirazu.ac.ir
+    affiliation: "Shiraz University, Shiraz, Iran"
+    orcid: "https://orcid.org/0000-0002-9524-5347"
+  - family-names: Fotoohi
+    given-names: Ali
+version: "1.0.0"
+date-released: "2026-07-30"
+license: MIT
+keywords:
+  - earthquake forecasting
+  - deep learning
+  - Zagros
+  - Makran
+  - Gutenberg-Richter
+  - ETAS
+  - benchmark

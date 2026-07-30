@@ -20,6 +20,16 @@ authors:
 version: "1.0.0"
 date-released: "2026-07-30"
 license: MIT
+doi: 10.5281/zenodo.21708567
+repository-code: "https://github.com/mkhalili1355/zagros-makran-benchmark"
+url: "https://doi.org/10.5281/zenodo.21708567"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21708567
+    description: Concept DOI, resolving to the most recent archived release
+  - type: doi
+    value: 10.5281/zenodo.21708568
+    description: Archived release v1.0.0
 keywords:
   - earthquake forecasting
   - deep learning

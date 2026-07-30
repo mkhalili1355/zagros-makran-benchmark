@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+outputs/
+models/
+data/catalog_clean.csv
+
+.DS_Store
+.env
+.vscode/
+.idea/
